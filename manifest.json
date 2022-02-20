@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Dyslexia Helper",
+    "version": "0.1.1",
+    "description": "People who suffer from Dyslexia can use this extension ",
+
+    "browser_action": {
+      "default_title": "Dyslexia helper",
+      "default_popup": "popup.html",
+      "default_icon": "dyslexia.png"
+    },
+
+    "background":{
+      "scripts":[
+          "popup.js"
+      ],
+      "persistent":true
+  },
+
+  "permissions":[
+    "https://*/*",
+    "http://*/*",
+    "https://",
+    "tabs"
+  ]
+    
+   
+    
+   
+  } 
+  
